@@ -14,7 +14,7 @@ that, the webcam can be accessed anytime via HTTP live streaming.
 
 Clone this project then `cd` into it:
 ```bash
-git clone https://github.com/jshridha/docker-motion
+git clone https://github.com/arrfour/docker-motion
 cd docker-motion
 ```
 
@@ -42,6 +42,7 @@ docker run -d --name=motioneye \
     -v /mnt/user/appdata/motioneye/media:/home/nobody/media \
     -v /mnt/user/appdata/motioneye/config:/config \
     jshridha/motioneye:latest
+    #or yourdocker/motioneye:latest
 ```
 
 Note that:
