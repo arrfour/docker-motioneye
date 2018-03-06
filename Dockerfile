@@ -1,8 +1,8 @@
 FROM phusion/baseimage:0.9.18
 
-MAINTAINER jshridha <jshridha@gmail.com>
+MAINTAINER arrfour <arr.four@gmail.com>
 
-ENV MOTIONEYE_VERSION=0.36.1
+ENV MOTIONEYE_VERSION=0.38.1
 
 RUN apt-get update && apt-get install -q -y --no-install-recommends \
     bsd-mailx \
